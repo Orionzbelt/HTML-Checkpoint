@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTMLcheckpoint</title>
+   
+</head>
+<body>
+    <div class="wrap">
+            <div>
+                <nav>
+                <ul class="navbar">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                </ul>
+                </nav>
+
+                <img src="coder.jpg" alt="logo">
+            </div>
+            <div>
+                <!-- The sections in this div contain the about, work, resume and contact for my profile. -->
+                <section id="about">
+                    <h2>About</h2>
+                    <p> Hello world<br>
+                        My name is Abasifreke, copywriter and ebook writer with 4 years experience in copy, fiction/nonfiction and technical writing.<br>
+                        As an expert copywriter, I have created highly engaging content for tech and consumer companies.<br>
+                        I helped to build brand authority and trust which helped these companies make more sales.<br>
+                        I have worked with diverse varities of client and have multiple success stories for inputs.</p>
+                </section>
+            
+                <section id="work">
+                    <h2>Work</h2>
+                    <p>International Association of Professional Writers and Editors<br>
+                    Eliteproject (Nigeria)<br>
+                    Fiverr.com <br>
+                    Upwork.com <br>
+
+                    </p>
+                </section>
+            
+                <section id="resume">
+                    <h2>Resume</h2>
+                    <p>National Vertinary Research Institute (NVRI) school<br>
+                        Royal model primary school<br>
+                        Nigerian Military school<br>
+                        University of Calabar<br>
+                        Gomycode Lagos
+                    </p>
+                </section>
+            
+                <section id="contact">
+                    <h2>Contact</h2>
+                    <p> ikpeabas@gmail.com<br>
+                        +234 806 328 3297
+                    </p>
+                    <!-- Next is a form to get contact info of people who visit the website -->
+                    <h4>
+                        Do you want to reach out with a message?<br>
+                        Kindly input your details below.
+                    </h4>
+                    <form>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+            
+                        <label for="email">Email:</label>
+                        <input type="text" id="email" name="email" required>
+            
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+            
+                        <input type="submit" value="Send">
+                    </form>
+                </section>
+            </div>
+    </div>
+    <div>
+        <!-- This div contains the audio and video files on the website. 
+            I made sure to include the control attribute to enable the audio play conrols.
+            I also included the autoplay for the video to play correctly.  -->
+        <audio controls>
+            <source src="Can’t get enough- Rapturemillz.wav" type="audio/mpeg">
+                
+        </audio>
+        <br>
+        <video width="320" height="240" controls>
+            <source src="Asake-Basquiat-Video-(TrendyBeatz.com).mp4" type="video/mp4" />
+            
+        </video>
+        <br>
+        
+            <iframe width="320" height="240" src="https://www.youtube.com/embed/SNoS_RauCw8" 
+            title="ODUMODUBLVCK - DOG EAT DOG II ft. Cruel Santino &amp; Bella Shmurda (Official Video)" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+            picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <!-- The footer is usually the end part of a website -->
+    <div class="footer">
+        <footer>
+            <p> My website for HTML checkpoint @Gomycode 2023. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
